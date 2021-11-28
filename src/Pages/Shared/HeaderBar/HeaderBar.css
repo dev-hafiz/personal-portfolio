@@ -1,0 +1,19 @@
+.bg-nav{
+     background: #2E4049;
+     color: #fff;
+}
+.link-style{
+     text-decoration: none;
+     color: #fff;
+     margin-right: 30px;
+}
+
+.link-style:hover{
+     color: #fff;
+     letter-spacing: 2px;
+     transition: linear .3s;
+}
+.style-icon:hover{
+     transition: ease-in-out .3s;
+    transform: rotate(90deg); 
+}
