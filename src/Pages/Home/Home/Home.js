@@ -1,21 +1,11 @@
 import React from 'react';
-import {
-     BrowserRouter,
-     Routes,
-     Route
-   } from "react-router-dom";
-import HeaderBar from '../../Shared/HeaderBar/HeaderBar';
+
+import TopBanner from '../TopBanner/TopBanner';
 
 const Home = () => {
      return (
           <div>
-          <BrowserRouter>
-               <HeaderBar/>
-               <Routes>
-               <Route path="/" element={<example />} />
-               <Route path="/home" element={<example />} />
-               </Routes>
-          </BrowserRouter>
+             <TopBanner />
           </div>
      );
 };

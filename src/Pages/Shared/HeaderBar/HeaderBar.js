@@ -16,7 +16,10 @@ const HeaderBar = () => {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <Link className="link-style" to="/home">MyProjects</Link>
+          <Link className="link-style" to="/home">Home</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="link-style" to="/myProjects">MyProjects</Link>
         </li>
         <li className="nav-item">
           <Link className="link-style" to="/contact">Contact</Link>

@@ -1,0 +1,37 @@
+.TopBannerBg{
+     background: #567787;
+     color: #fff;
+     padding: 50px 0;
+}
+.imgdeveloper{
+     border-radius: 10px;
+     box-shadow: 10px 10px 10px #2E4049;
+}
+.name-pre-text{
+     font-weight: 300;
+     font-size: 24px;
+}
+.name-text{
+     font-family: sans-serif;
+     font-weight: 700;
+     
+}
+.dev-para{
+     font-weight: 400;
+     font-size: 16px;
+     margin: 8px 0px 10px 0;
+     padding-bottom: 14px;
+}
+.resume-btn{
+     text-decoration: none;
+     color: #1a1a1b;
+     font-weight: 600;
+     background: #fff;
+     padding: 10px 20px;
+     border-radius: 3px;
+}
+.resume-btn:hover{
+     color: #1a1a1b;
+     background: gainsboro;
+     transition: linear .5s;
+}
