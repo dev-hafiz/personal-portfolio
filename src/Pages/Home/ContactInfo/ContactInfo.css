@@ -1,0 +1,48 @@
+.contact-area{
+     margin-top: 80px;
+     margin-bottom: 70px;
+}
+.box{
+     
+     text-align: center;
+     border: 1px solid #2E4049;
+     font-size: 20px;
+     width: 350px;
+     margin: 0 auto;
+     padding: 60px 40px;
+     border-radius: 20px;
+}
+
+.info-icon{
+     color: #2E4049;
+}
+
+/* Form Area */
+.from-intro{
+     text-align: center;
+     color: #2E4049;
+     margin-top: 60px;
+     margin-bottom: 40px;
+}
+.form-area{
+     width: 70%;
+     margin: 0 auto;
+     padding-bottom: 60px;
+     
+}
+.form-area input , textarea{
+     width: 90%;
+     padding: 10px 20px;
+     margin: 10px;
+}
+.btn-submit {
+     background: #2E4049;
+     color: #fff;
+     border: none;
+     outline: none;
+     padding: 7px 14px;
+     font-size: 18px;
+     font-weight: 500;
+     margin-left: 10px;
+     border-radius: 3px;
+ }

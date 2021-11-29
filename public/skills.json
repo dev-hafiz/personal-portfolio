@@ -1,0 +1,30 @@
+[
+     {
+          "id" :1,
+          "skill":"Frontend",
+          "first":"Html, CSS",
+          "second" : "Bootstrap",
+          "third"  :"Javascript",
+          "four" : "React",
+          "img":"https://i.ibb.co/h7T0TLF/images.png"
+          
+     },
+     {
+          "id" :2,
+          "skill":"Backendend",
+          "first":"Node.js",
+          "second" : "Express.js",
+          "third"  :"MongoDB",
+          "four" : "Payment gateWay",
+          "img":"https://i.ibb.co/cC55vPk/Database-Storage-Server-Design-Data-Center-Hosting-Concept-Icon-Design.jpg"
+     },
+     {
+          "id" :3,
+          "skill":"Deployment & Tools",
+          "first":"Vs Code, Figma",
+          "second" : "Heroku",
+          "third"  :"Netlify",
+          "four" : "Firebase",
+          "img":"https://i.ibb.co/mSqg6fL/images-2.png"
+     }
+]
