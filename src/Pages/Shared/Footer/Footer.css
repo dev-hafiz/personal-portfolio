@@ -1,0 +1,52 @@
+.footer{
+     margin-top:100px;
+     padding-bottom: 60px;
+     padding: 40px 0;
+     background: #F2F2F2;
+}
+.footer-Icon{
+     color: #fff;
+     font-size: 16px;
+     background: #1a1a1b;
+     margin-right: -10px;
+     padding: 10px;
+     border-radius: 100%;
+}
+.icon-area{
+     margin-bottom: 40px;
+}
+.footer-Icon:hover{
+     transform: scale(1.5);
+     transition: linear .3s;
+}
+.follow-text{
+     color: #2E4049;
+     font-weight: 300;
+     font-size: 20px;
+     margin-bottom: 20px;
+}
+.diff-text{
+     color: #1a1a1b; 
+     font-weight: bold;
+}
+.news-text{
+     font-weight: 300;
+}
+.letter-area{
+     border-left: 1px solid gray;
+     padding: 10px 20px;
+}
+.news-email{
+     outline: none;
+     border: 1px solid #2E4049;
+     padding: 3 5px;
+}
+
+.sub-button{
+     border: 1px solid #fff;
+     outline: none;
+     font-size: 14px;
+     padding: 4px 6px;
+     background: #1a1a1b;
+     color: #fff;
+}

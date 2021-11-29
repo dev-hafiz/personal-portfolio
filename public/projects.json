@@ -1,0 +1,52 @@
+[
+     {
+          "id":1,
+          "name" : "VELO CYCLE RIDE",
+          "titleOne" : "Velo Cycle Ride is a  cycle selling  Niche  e-commercial website",
+          "titleTwo": "Admin and users dashboard are available",
+          "titleThree":"Front-end and back-end with MongoDB CRUD operation",
+          "img1": "https://i.ibb.co/rcyKFYn/header.png",
+          "img2": "https://i.ibb.co/KrpNZwv/newslater.png",
+          "img3": "https://i.ibb.co/ccHzQVD/products.png",
+          "img4": "https://i.ibb.co/tJFQJQp/basics.png",
+          "img6": "https://i.ibb.co/VmrnT0b/footer.png",
+          "technologies" : "React,  JavaScript, Material-ui,Node.js, Express.js, mongoDB, Firebase-Authentication, Login, Register, Google-SignIn,,Heroku and Firebase deployment",
+          "LiveSite":"https://cycle-ride-auth.web.app/",
+          "ClientSide":"https://github.com/okshihafiz/niche-website-client-side",
+          "ServerSide":"https://github.com/okshihafiz/niche-website-server-side"
+     },
+     {
+          "id":2,
+          "name" : "TRAVEL AGENCY",
+          "titleOne" : "Travel Agency  is a tourism website",
+          "titleTwo": "All  data stored from database and visitor can booked a place",
+          "titleThree":"Visite place, guiders and booking informations are available here",
+          "img1": "https://i.ibb.co/vzbSLJS/Header.png",
+          "img2": "https://i.ibb.co/T41vdNG/services.png",
+          "img3": "https://i.ibb.co/rcYnnpX/tour.png",
+          "img4": "https://i.ibb.co/ryxY4X1/talk.png",
+          "img6": "https://i.ibb.co/S3rFZPN/footer.png",
+          "technologies" : "React,  JavaScript, Bootstrap,  Node.js, Express.js, mongoDB, Firebase-Authentication, Google-SignIn, Heroku and Firebase deployment",
+          "LiveSite":"https://travel-agency-authentication.web.app/",
+          "ClientSide":"https://github.com/okshihafiz/tourisim-website-client-site",
+          "ServerSide":"https://github.com/okshihafiz/tourisim-website-server-site"
+     },
+     {
+          "id":3,
+          "name" : "MEDI LIFE",
+          "titleOne" : "Authenticated user can  take a doctors services",
+          "titleTwo": "Created services with fake JSON API and route page also set up",
+          "titleThree":"Real time project created for patient purpose to discuss with the      doctors and take their services",
+          "img1": "https://i.ibb.co/kxyB07L/header.png",
+          "img2": "https://i.ibb.co/6X7JJYW/doctor-Contact.png",
+          "img3": "https://i.ibb.co/DzcfrqN/services.png",
+          "img4": "https://i.ibb.co/Yfx5vZL/news.png",
+          "img6": "https://i.ibb.co/5Tcm7xv/footer.png",
+          "technologies" : "React, Bootstrap, CSS, Firebase-Authentication,Login, Register Google-SignIn, Github-SignIn,Firebase deployment",
+          "LiveSite":"https://medi-life-authentication.web.app/",
+          "ClientSide":"https://github.com/okshihafiz/health-care",
+          "ServerSide":"Not Applicable"
+     }
+]
+
+

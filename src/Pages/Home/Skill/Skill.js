@@ -7,10 +7,10 @@ const Skill = ({devskill}) => {
           <div className="col-md-4 skill-box">
           <img className="sillks-logo text-center" width="60px" src={img} alt="" />
               <h3 className="text-center py-3">{skill}</h3> 
-              <p> <i class="fas sign-icon fa-check"></i> {first}</p>
-              <p> <i class="fas sign-icon fa-check"></i> {second}</p>
-              <p> <i class="fas sign-icon fa-check"></i> {third}</p>
-              <p> <i class="fas sign-icon fa-check"></i> {four}</p>
+              <p> <i className="fas sign-icon fa-check"></i> {first}</p>
+              <p> <i className="fas sign-icon fa-check"></i> {second}</p>
+              <p> <i className="fas sign-icon fa-check"></i> {third}</p>
+              <p> <i className="fas sign-icon fa-check"></i> {four}</p>
           </div>
          
      );

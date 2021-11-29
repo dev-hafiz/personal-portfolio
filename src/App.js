@@ -9,6 +9,8 @@ import HeaderBar from './Pages/Shared/HeaderBar/HeaderBar';
 import Home from './Pages/Home/Home/Home';
 import MyProjects from './Pages/Home/MyProjects/MyProjects';
 import ContactInfo from './Pages/Home/ContactInfo/ContactInfo';
+import ProjectDetails from './Pages/Home/Home/ProjectDetails/ProjectDetails';
+import Footer from './Pages/Shared/Footer/Footer';
 function App() {
   return (
     <div className="App">
@@ -19,9 +21,11 @@ function App() {
                <Route path="/home" element={<Home />} />
                <Route path="/myProjects" element={<MyProjects />} />
                <Route path="/contact" element={<ContactInfo />} />
+               <Route path="/project/:idProject" element={<ProjectDetails />} />
                
                </Routes>
-          </BrowserRouter>
+               <Footer/>
+      </BrowserRouter>
     </div>
   );
 }
