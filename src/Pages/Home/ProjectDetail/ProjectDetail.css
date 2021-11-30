@@ -1,0 +1,21 @@
+.detail-text{
+     color: #1a1a1b;
+     margin-top: 80px;
+     margin-bottom: 40px;
+     font-weight: 700;
+     text-align: start;
+     text-transform: uppercase;
+}
+.img-wrapper{
+     overflow: hidden;
+}
+.imgDtails:hover{
+     transform: scale(1.5);
+     transition: linear .3s;
+     
+}
+
+.detail-para{
+     text-align:left;
+     margin-top: 20px;
+}

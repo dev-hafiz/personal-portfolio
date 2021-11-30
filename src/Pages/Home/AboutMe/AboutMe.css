@@ -1,0 +1,55 @@
+.about-area{
+     margin-top: 80px;
+}
+.dev-About{
+     margin-bottom: 60px;
+}
+
+.name-title{
+     font-family: sans-serif;
+}
+.mini-title{
+     font-family: sans-serif;
+     font-weight: 500;
+     font-size: 18px;
+}
+
+.bottom-about{
+     margin-top: 100px;
+}
+
+.about-Text{
+     font-weight: 700;
+     margin-top: 140px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.dev-text-para{
+     font-family: 18px;
+     font-weight: 500;
+}
+
+.web-skill{
+     margin-top: 80px;
+}
+.edu-title{
+     font-family: sans-serif;
+     font-weight: 500;
+}
+.duration{
+     font-weight: bold;
+     color: rgb(190, 4, 66);
+}
+
+p.course-Text {
+     font-size: 16px;
+     font-weight: 400;
+     font-family: sans-serif;
+ }
+
+ span.little-note {
+     font-weight: bold;
+     color: #cdcdcd;
+     font-size: 12px;
+ }

@@ -11,6 +11,8 @@ import MyProjects from './Pages/Home/MyProjects/MyProjects';
 import ContactInfo from './Pages/Home/ContactInfo/ContactInfo';
 import ProjectDetails from './Pages/Home/Home/ProjectDetails/ProjectDetails';
 import Footer from './Pages/Shared/Footer/Footer';
+import Blogs from './Pages/Home/Blogs/Blogs';
+import AboutMe from './Pages/Home/AboutMe/AboutMe';
 function App() {
   return (
     <div className="App">
@@ -22,6 +24,8 @@ function App() {
                <Route path="/myProjects" element={<MyProjects />} />
                <Route path="/contact" element={<ContactInfo />} />
                <Route path="/project/:idProject" element={<ProjectDetails />} />
+               <Route path="/blog" element={<Blogs />} />
+               <Route path="/aboutme" element={<AboutMe />} />
                
                </Routes>
                <Footer/>

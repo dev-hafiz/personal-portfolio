@@ -19,10 +19,16 @@ const HeaderBar = () => {
           <Link className="link-style" to="/home">Home</Link>
         </li>
         <li className="nav-item">
-          <Link className="link-style" to="/myProjects">MyProjects</Link>
+          <Link className="link-style" to="/aboutme">About Me</Link>
         </li>
         <li className="nav-item">
           <Link className="link-style" to="/contact">Contact</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="link-style" to="/blog">Blog's</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="link-style" to="/myProjects">MyProjects</Link>
         </li>
         
         

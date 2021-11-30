@@ -4,7 +4,7 @@ import './MyProjects.css'
 const MyProjects = () => {
      return (
           <div>
-               <h2>This is my Projects</h2>
+               <h2 className="text-center my-5">This is my Projects</h2>
           </div>
      );
 };
