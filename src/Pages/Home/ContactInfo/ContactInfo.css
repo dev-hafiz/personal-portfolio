@@ -14,13 +14,13 @@
 }
 
 .info-icon{
-     color: #2E4049;
+     color: #171717;
 }
 
 /* Form Area */
 .from-intro{
      text-align: center;
-     color: #2E4049;
+     color: #171717;
      margin-top: 60px;
      margin-bottom: 40px;
 }
@@ -36,7 +36,7 @@
      margin: 10px;
 }
 .btn-submit {
-     background: #2E4049;
+     background: #171717;
      color: #fff;
      border: none;
      outline: none;

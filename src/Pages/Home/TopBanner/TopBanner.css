@@ -1,11 +1,11 @@
 .TopBannerBg{
-     background: #567787;
-     color: #fff;
+     background: #F3F3F3;
+     color: #171717;
      padding: 50px 0;
 }
 .imgdeveloper{
-     border-radius: 10px;
-     box-shadow: 10px 10px 10px #2E4049;
+     /* border-radius: 10px; */
+     box-shadow: 9px 10px 10px #171717;
 }
 .name-pre-text{
      font-weight: 300;
@@ -24,9 +24,9 @@
 }
 .resume-btn{
      text-decoration: none;
-     color: #1a1a1b;
+     color: #fff;
      font-weight: 600;
-     background: #fff;
+     background: #171717;
      padding: 10px 20px;
      border-radius: 3px;
 }

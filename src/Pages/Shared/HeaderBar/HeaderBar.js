@@ -5,8 +5,8 @@ import './HeaderBar.css'
 const HeaderBar = () => {
      return (
           <nav className="navbar navbar-expand-lg navbar-light bg-nav">
-  <div className="container-fluid">
-   <a className="navbar-brand text-light ms-4 style-icon me-3" href="https://github.com/okshihafiz"><i className="fab fa-github"></i></a>
+  <div className="container">
+   <a className="navbar-brand text-light ms-4 style-icon me-3 " href="https://github.com/okshihafiz"><i className="fab fa-github"></i></a>
     <a className="navbar-brand text-light style-icon ms-3" href="https://www.linkedin.com/in/hafizur-rahman-jr/"><i className="fab fa-linkedin-in"></i></a>
     <a className="navbar-brand text-light style-icon ms-3" href="https://twitter.com/hafizur_jr"><i className="fab fa-twitter"></i></a>
     <a className="navbar-brand text-light style-icon ms-3" href="https://stackoverflow.com/users/16836884/okshi-hafiz"><i className="fab fa-stack-overflow"></i></a> 

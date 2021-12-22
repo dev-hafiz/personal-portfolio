@@ -7,13 +7,13 @@ const ContactInfo = () => {
                <h2 className="from-intro">Contact Info</h2>
                     <div className="row mt-5">
                     <div className="col-md-4 col-lg-4 col-12 box d-flex align-items-center mb-3">
-                    <i className="fas info-icon fa-2x fa-map-marker-alt"></i> <p>Sylhet, Beanibazar 3174</p>
+                    <i className="fas info-icon fa-2x fa-map-marker-alt me-2"></i> <p>Sylhet, Beanibazar 3174</p>
                     </div>
                     <div className="col-md-4 col-lg-4 col-12 box d-flex align-items-center mb-3">
-                    <i className="fas info-icon fa-2x fa-phone"></i> <p>(+880) 1950646560</p>
+                    <i className="fas info-icon fa-2x fa-phone me-2"></i> <p>(+880) 1950646560</p>
                     </div>
                     <div className="col-md-4 col-lg-4 col-12 box d-flex align-items-center mb-3">
-                    <i className="fas info-icon fa-2x fa-envelope"></i> <p>hafizurrahman@gmail.com</p>
+                    <i className="fas info-icon fa-2x fa-envelope me-2"></i> <p>hafizurrahman@gmail.com</p>
                     </div>
                     </div>
                </div>

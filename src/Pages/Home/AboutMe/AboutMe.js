@@ -1,14 +1,14 @@
 import React from 'react';
 import './AboutMe.css';
-import DevImg from '../../../images/devjr.png';
+import DevImg from '../../../images/devHafiz.jpg';
 
 const AboutMe = () => {
      return (
           <div className="about-area">
                <div className="container">
                     <div className="dev-About d-flex align-items-center">
-                    <div><img className="devImg" src={DevImg} alt="" /></div>
-                    <div className="ms-3">
+                    <div><img width="60%" className="devImg" src={DevImg} alt="" /></div>
+                    <div className="">
                          <h2 className="name-title">HAFIZUR RAHMAN</h2>
                          <p className="mini-title">Junior Web Developer</p>
                         
