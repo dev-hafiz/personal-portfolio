@@ -1,9 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import LogoNav from '../LogoNav/LogoNav';
 import './HeaderBar.css'
 
 const HeaderBar = () => {
      return (
+       <>
+       <LogoNav/>
           <nav className="navbar navbar-expand-lg navbar-light bg-nav">
   <div className="container">
    <a className="navbar-brand text-light ms-4 style-icon me-3 " href="https://github.com/okshihafiz"><i className="fab fa-github"></i></a>
@@ -16,19 +19,16 @@ const HeaderBar = () => {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <Link className="link-style" to="/home">Home</Link>
+          <Link className="link-style fw-bold" to="/home">Home</Link>
         </li>
         <li className="nav-item">
-          <Link className="link-style" to="/aboutme">About Me</Link>
+          <Link className="link-style fw-bold" to="/aboutme">About Me</Link>
         </li>
         <li className="nav-item">
-          <Link className="link-style" to="/contact">Contact</Link>
+          <Link className="link-style fw-bold" to="/contact">Contact</Link>
         </li>
         <li className="nav-item">
-          <Link className="link-style" to="/blog">Blog's</Link>
-        </li>
-        <li className="nav-item">
-          <Link className="link-style" to="/myProjects">MyProjects</Link>
+          <Link className="link-style fw-bold" to="/myProjects">MyProjects</Link>
         </li>
         
         
@@ -37,6 +37,7 @@ const HeaderBar = () => {
     </div>
   </div>
 </nav>
+     </>
      );
 };
 
