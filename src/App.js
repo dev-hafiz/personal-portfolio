@@ -13,6 +13,8 @@ import ProjectDetails from './Pages/Home/Home/ProjectDetails/ProjectDetails';
 import Footer from './Pages/Shared/Footer/Footer';
 import Blogs from './Pages/Home/Blogs/Blogs';
 import AboutMe from './Pages/Home/AboutMe/AboutMe';
+import ReactBlogs from './Pages/Home/ReactBlogs/ReactBlogs';
+import DatabaseBlogs from './Pages/Home/DatabaseBlogs/DatabaseBlogs';
 function App() {
   return (
     <div className="App">
@@ -25,6 +27,8 @@ function App() {
                <Route path="/contact" element={<ContactInfo />} />
                <Route path="/project/:idProject" element={<ProjectDetails />} />
                <Route path="/blog" element={<Blogs />} />
+               <Route path="/reactBlogs" element={<ReactBlogs />} />
+               <Route path="/dataBaseBlogs" element={<DatabaseBlogs />} />
                <Route path="/aboutme" element={<AboutMe />} />
                
                </Routes>

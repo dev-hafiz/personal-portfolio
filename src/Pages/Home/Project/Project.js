@@ -1,12 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Project.css';
+import background from '../../../../src/images/devHafiz.jpg'
 
 
 const Project = ({project}) => {
      const {id, name, titleOne, titleTwo, titleThree, img1, LiveSite, ClientSide, ServerSide} = project || {}
+
+    
      return (
-           <div className="col-md-4 col-12">
+           <>
+          {/* My card older  */}
+                <div className="col-md-4 col-12">
                     <div className="project-box">
                          <div className="themeImg">
                               <img width="100%" src={img1} alt="" />
@@ -25,10 +30,11 @@ const Project = ({project}) => {
                               <p>-{titleThree}</p>
                          </div>
                          <Link to={`/project/${id}`}>
-                         <button className="btn-details">See Details</button>
+                         <button className="btn-details">See more Details</button>
                          </Link>
                     </div>
                </div>
+           </>
      );
 };
 

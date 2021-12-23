@@ -1,0 +1,21 @@
+/* Font family  */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,700;0,800;1,600;1,700;1,800&display=swap');
+/* font-family: 'EB Garamond', serif; */
+
+.blog-title{
+     font-family: 'EB Garamond', serif;
+     font-size: 40px;
+}
+.topic-title{
+     font-family: 'EB Garamond', serif;
+     font-size: 26px;
+     padding-top: 100px;
+}
+.blog-text{
+     font-family: 'EB Garamond', serif;
+     font-size: 22px;
+}
+.ul-text{
+     font-family: sans-serif;
+     font-size: 18px;
+}
