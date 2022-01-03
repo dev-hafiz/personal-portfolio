@@ -5,17 +5,26 @@ import DevImg from '../../../images/devHafiz.jpg';
 const AboutMe = () => {
      return (
           <div className="about-area">
-               <div className="container">
-                    <div className="dev-About d-flex align-items-center">
-                    <div><img width="60%" className="devImg" src={DevImg} alt="" /></div>
-                    <div className="">
-                         <h2 className="name-title">HAFIZUR RAHMAN</h2>
-                         <p className="mini-title">Junior Web Developer</p>
-                        
-                    </div>
-                    </div>
+               <div className="container ">
+
+               {/* Other code */}
+               <div className="about-card">
+               <div className="body-card ">
+               <div id="gradient"></div>
+               <div id="card">
+               <img width="10%" className="devImg" src={DevImg} />
+               <h2 className="mt-2">MD HAFIZUR RAHMAN</h2>
+               <p>Student of English Literature</p>
+               <p>Interested in Web technologies like HTML5, CSS3, JavaScript, React, Node.js, MongoDB.</p>
+               <p>Respecting work, maintaining time :)</p>
+               <span class="left bottom">cell:+880 1950 646 560</span>
+               <p>adress: BD Republic</p>
+               </div>
+               </div>
+
+               </div>
                     <hr />
-                    <div className="row bottom-about">
+                    <div className="row bottom-about mt-5 pt-5">
                     <div className="col-md-4 col-lg-4 col-12">
                          <h1 className="about-Text">About Me</h1>
                     </div>

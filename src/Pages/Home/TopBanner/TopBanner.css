@@ -1,5 +1,5 @@
 .TopBannerBg{
-     background: #F3F3F3;
+     background: #E9E2D0;
      color: #171717;
      padding: 50px 0;
 }
@@ -32,6 +32,19 @@
 }
 .resume-btn:hover{
      color: #1a1a1b;
-     background: gainsboro;
+     background: #fff;
      transition: linear .5s;
+}
+
+.tel_img{
+     
+          
+          float: left;
+          border-radius: 5px;
+          margin-top: 10px;
+          margin-right: 20px;
+          -webkit-filter: sepia(1);
+          -moz-filter: sepia(1);
+          filter: sepia(1);
+        
 }

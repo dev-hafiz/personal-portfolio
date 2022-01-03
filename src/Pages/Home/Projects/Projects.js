@@ -15,7 +15,7 @@ const Projects = () => {
      return (
          <div className="container">
                <div className="project-area">
-               <h2 className="from-intro">Personal Projects</h2>
+               <h2 className="from-intro fw-bold">Personal Projects</h2>
                <div className="prjects-wrapper">
                    <div className="row">
                         {

@@ -1,10 +1,10 @@
 .skill-box{
-     background: #F2F2F2;
+     background: #E9E2D0;
      text-align: start;
      margin: 60px 0px 60px 0;
      margin-left: 18px;
-     width: 350px;
-     padding: 0 0px 40px 30px;
+     
+     padding: 80px 0px 40px 0px;
      border-radius: 10px;
 }
 
@@ -15,4 +15,9 @@
 .sign-icon{
      color: #2E4049;
      font-size: 20px;
+}
+
+.icon-box{
+     
+     
 }

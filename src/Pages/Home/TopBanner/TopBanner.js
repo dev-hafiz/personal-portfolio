@@ -9,7 +9,7 @@ const TopBanner = () => {
                <div className="row mt-5">
                <div className="col-md-4 col-lg-4 col-12">
                     <div className="imgDev mb-3">
-                         <img width="70%" className="imgdeveloper" src={devJr} alt="" />
+                         <img width="70%" className="imgdeveloper tel_img" src={devJr} alt="" />
                     </div>
                </div>
                <div className="col-md-8 col-lg-8 col-12 mt-5">
